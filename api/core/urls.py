@@ -1,6 +1,8 @@
-from django.urls import path, include
+from django.urls import include, path
 from rest_framework.routers import DefaultRouter
-from .views import PostViewSet, TagDetailView, TagView, AsideView, FeedBackView, RegisterView, ProfileView, CommentView
+
+from .views import (AsideView, CommentView, FeedBackView, PostViewSet,
+                    ProfileView, RegisterView, TagDetailView, TagView)
 
 router = DefaultRouter()
 router.register('posts', PostViewSet, basename='posts')
