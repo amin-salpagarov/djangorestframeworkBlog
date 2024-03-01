@@ -5,10 +5,17 @@
 ## Установка
 
 1.Clone the repository:
+
   git clone https://github.com/amin-salpagarov/djangorestframeworkBlog.git
+
 2.Install the required dependencies:
+
   pip install -r requirements.txt
+
 3.Apply database migrations:
+
   python manage.py migrate
+
 4.Run the development server:
+
   python manage.py runserver 
